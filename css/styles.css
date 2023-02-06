@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+}
+
+*, ::before, ::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+textarea{
+  resize: none;
+  height: 60px;
+  width: 90px;
+  background: none;
+  box-shadow: none;
+  border: none;
+}
+.board{
+  height: 500px;
+  width: 20%;
+  
+  
+}
+.todo{
+  background-color: aqua;
+}
+.started{
+  background-color: greenyellow;
+}
+.finished{
+  background-color:darksalmon;
+}
+.boards{
+  display: flex;
+  justify-content: space-evenly;
+}
+.postit{
+  height: 150px;
+  width: 200px;
+  background-image: url(resources/postit.png);
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
